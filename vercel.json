@@ -1,22 +1,4 @@
 {
-  "version": 2,
-  "name": "environmental-campaign",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "."
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
-  "functions": {},
   "headers": [
     {
       "source": "/(.*)",
